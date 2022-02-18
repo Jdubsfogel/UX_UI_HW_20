@@ -27,19 +27,9 @@
     background: rgba (51, 170, 51, 0.7);
     text-align: center;
     height: 250px;
-    margin-top: 200px;
-   
-    
+    margin-top: 200px; 
 }
 
-
-.projecttextContainer1 {
-   
-}
-
-.projecttextContainer2 {
-  
-}
 
 .standardimageContainer {
     max-width: 556px;
@@ -50,8 +40,8 @@
 }
 
 .standardimageContainer > img {
-    max-width: 556px;
-    max-height: 380px;
+    max-width: 100%;
+    max-height: 100%;
     
 }
 
@@ -74,4 +64,51 @@
 .desktopimageContainer > img {
     width: 406px;
     height: 237px;
+}
+
+.card-img-top {
+    height: 100%;
+}
+
+.card {
+    border: none;
+}
+
+.mockup {
+   display: inline-flex;
+}
+
+.mockupContainer {
+    height: 650px;
+    width: 300px;
+    
+}
+
+.mockupContainer > img {
+    height: 100%;
+    width: 100%;
+}
+
+.card-img-top {
+    display: inline-flex;
+}
+
+/* Footer Section */
+
+.footersection {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding:20px;
+    margin-top:100px;
+}
+
+.footersection a {
+    color:white;
+    padding: 10px;
+}
+
+.footersection hr{
+  width:10%;  
+  color: white;
 }
