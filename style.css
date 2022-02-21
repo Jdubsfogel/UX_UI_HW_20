@@ -1,10 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
-
+.body {
+    font-family: montserrat;
+}
+    
 
 .navbar {
     background-color: white;
+    
 
 }
 
@@ -15,7 +19,7 @@
 .jumbotron {
     width: 100%;
     height: 600px;
-    background-image: url("images/hero-plane.jpg");
+    background-image: url("images/mockuuups-macbook-pro-space-gray-mockup-on-the-wooden-table.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -23,17 +27,36 @@
 
 }
 
-.herotextBackground {
-    background: rgba (51, 170, 51, 0.7);
-    text-align: center;
-    height: 250px;
-    margin-top: 200px; 
+.casestudyContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
 }
 
 
+.herotextBackground {
+    position: absolute;
+    background: #315685;
+    opacity: 95%;
+    text-align: center;
+    min-height: 150px;
+    margin-top: 450px; 
+    
+    
+}
+
+.herotextBackground > h1, p {
+    font-weight: 500;
+}
+
+.firstHeading {
+    margin-top: 150px;
+}
+
 .standardimageContainer {
-    max-width: 556px;
-    max-height: 380px;
+    max-width: 700px;
+    max-height: 450px;
     display: inline-flex;
     align-items: baseline;
     justify-content: center;
@@ -45,9 +68,30 @@
     
 }
 
+.challengeimageContainer {
+    width:543px;
+    height:317px;
+}
+
+.challengeimageContainer > img {
+    width:543px;
+    height:317px;
+}
+
+.methodologyContainer {
+    width: 100%;
+    height: 128px;
+    
+}
+
+.methodologyContainer > img {
+    width: 100%;
+    height: 100%;
+}
+
 .mobileimageContainer {
-    width: 106px;
-    height: 214px;
+    width: 156px;
+    height: 315px;
 }
 
 .mobileimageContainer > img {
@@ -57,21 +101,21 @@
 
 
 .desktopimageContainer {
-    width: 406px;
-    height: 237px;
+    width: 543px;
+    height: 317px;
 }
 
 .desktopimageContainer > img {
-    width: 406px;
-    height: 237px;
+    width: 100%;
+    height: 100%;
 }
 
 .card-img-top {
     height: 100%;
 }
 
-.card {
-    border: none;
+.smallCard {
+   height:200px;
 }
 
 .mockup {
@@ -99,8 +143,7 @@
     text-align: center;
     color: white;
     background-color: black;
-    padding:20px;
-    margin-top:100px;
+    padding:30px;
 }
 
 .footersection a {
@@ -108,7 +151,8 @@
     padding: 10px;
 }
 
-.footersection hr{
-  width:10%;  
+.footerlineBreak {
+  width: 100px;  
   color: white;
+  border: white;
 }
